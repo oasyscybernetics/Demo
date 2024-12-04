@@ -44,10 +44,14 @@ public class TC_01_Account_creation extends BaseClass {
 	public void click_on_create_an_accounts() throws InterruptedException {
 		Thread.sleep(20);
 		pom.getAccount_creation().create();
+		Thread.sleep(50);
 	}
 
 	@Then("Check for the {string}")
-	public void check_for_the(String string) {
+	public void check_for_the(String text) throws InterruptedException {
+		pom.getAccount_creation().getVerifyUser();
+		System.out.println(text);
+		Thread.sleep(30);
 
 	}
 

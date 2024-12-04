@@ -34,6 +34,9 @@ public class Account_creationPage extends BaseClass {
 	@FindBy(xpath = "(//span[text()='Create an Account'])[1]")
 	private WebElement btnCreate;
 
+	@FindBy(xpath = "(//li[@class='greet welcome']/child::span[@class='logged-in'])[1]")
+	private WebElement verifyUser;
+
 	public WebElement getCreateAccount() {
 		return createAccount;
 	}
@@ -62,6 +65,10 @@ public class Account_creationPage extends BaseClass {
 		return btnCreate;
 	}
 
+	public WebElement getVerifyUser() {
+		return verifyUser;
+	}
+
 	public void accountCreation() {
 		elementClick(getCreateAccount());
 
@@ -86,6 +93,12 @@ public class Account_creationPage extends BaseClass {
 
 	public void create() {
 		elementClick(getBtnCreate());
+
+	}
+
+	public String verifyTxt(String text) {
+		gettingText(getVerifyUser());
+		return text;
 
 	}
 }

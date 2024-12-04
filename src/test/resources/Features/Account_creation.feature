@@ -11,5 +11,5 @@ Feature: Account Creation for a customer
     And Check for the "Thank you for registering with Main Website Store."
 
     Examples: 
-      | firstname | lastname | email             | password   | confirm_password |
-      | Jack      | Dannials | abcd123@gmail.com | Hello@123. | Hello@123.       |
+      | firstname | lastname | email                     | password    | confirm_password |
+      | Spring    | Potato   | lumatestingdemo@gmail.com | Hello@12345 | Hello@12345      |

@@ -1,54 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="16.797" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="Account Creation for a customer" name="To create a account for a new customer - #1.1" time="16.573">
-<failure type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element &lt;span&gt;...&lt;/span&gt; is not clickable at point (217, 578). Other element would receive the click: &lt;div id=&quot;aswift_1_host&quot; style=&quot;border: none !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=131.0.6778.86)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5719723400f01bc45cff86e0ffb52a3a, clickElement {id=f.D16D7CD09C3F39EBA68DEB091139677B.d.845B8ADA47DF3CA468897F7DA9D95DB2.e.130}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\AISHWA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50813/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5719723400f01bc45cff86e0ffb52a3a)] -&gt; xpath: (//span[text()='Create an Account'])[1]]
-Session ID: 5719723400f01bc45cff86e0ffb52a3a">
-<![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span>...</span> is not clickable at point (217, 578). Other element would receive the click: <div id="aswift_1_host" style="border: none !important; height: 124px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;">...</div>
-  (Session info: chrome=131.0.6778.86)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5719723400f01bc45cff86e0ffb52a3a, clickElement {id=f.D16D7CD09C3F39EBA68DEB091139677B.d.845B8ADA47DF3CA468897F7DA9D95DB2.e.130}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\AISHWA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50813/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5719723400f01bc45cff86e0ffb52a3a)] -> xpath: (//span[text()='Create an Account'])[1]]
-Session ID: 5719723400f01bc45cff86e0ffb52a3a
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-	at com.base.BaseClass.elementClick(BaseClass.java:94)
-	at com.pages.Account_creationPage.create(Account_creationPage.java:88)
-	at com.stepdefinition.TC_01_Account_creation.click_on_create_an_accounts(TC_01_Account_creation.java:46)
-	at ✽.Click on Create An Accounts(file:///C:/Users/aishwarya/eclipse-workspace/Magento_Luma/src/test/resources/Features/Account_creation.feature:10)
-]]>
-</failure>
+<testsuite name="Cucumber" time="17.462" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Account Creation for a customer" name="To create a account for a new customer - #1.1" time="17.276">
 <system-out><![CDATA[
 Given Open the browser and go the store URL.................................passed
 And Select the Create An Account option.....................................passed
-When Enter the "Jack" and "Dannials" under personal information.............passed
-And Enter the "abcd123@gmail.com" and "Hello@123." under sign-in information.passed
-And Again re-enter the same password in "Hello@123."........................passed
-Then Click on Create An Accounts............................................failed
-And Check for the "Thank you for registering with Main Website Store."......skipped
+When Enter the "Spring" and "Potato" under personal information.............passed
+And Enter the "lumatestingdemo@gmail.com" and "Hello@12345" under sign-in information.passed
+And Again re-enter the same password in "Hello@12345".......................passed
+Then Click on Create An Accounts............................................passed
+And Check for the "Thank you for registering with Main Website Store."......passed
 ]]></system-out>
 </testcase>
 </testsuite>
